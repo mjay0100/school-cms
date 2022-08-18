@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* html,body{
+  width:fit-content
+} */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: #e5e7eb;
+  display: grid;
+  box-shadow: hsl(360, 67%, 44%);
+  transition: transform 0.5s linear;
+  transform: translate(-100%);
+}
+
+.show-sidebar {
+  transform: translate(0);
+}
+
+.list-sidebar {
+  height: 50%;
+  align-items: end;
+}
