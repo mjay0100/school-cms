@@ -1,29 +1,32 @@
-import { RiBracesLine } from "react-icons/ri";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="grid grid-cols-1 gap-[2.5rem] md:flex p-[3rem] pt-[4rem] mt-[3.5rem] justify-around items-start bg-black text-white">
-      <h1 className="justify-center font-bold text-3xl flex gap-2 items-center">
-        {" "}
-        <span>
-          <RiBracesLine />{" "}
-        </span>
-        finsweet
+    <section className="bg-[#0F3876] p-7 text-white">
+      <h1 className="justify-center font-bold text-3xl flex gap-2 items-center mb-8">
+        Contact Us
       </h1>
-     
-      <div>
-        <h1 className="text-2xl mb-5 text-center">
-          Subscribe to get latest <br /> updates
-        </h1>
-        <div className="flex justify-center">
-          <input
-            type="text"
-            className="p-4 border border-slate-100/40 bg-black"
-            placeholder="Your email"
-          />
-          <button className="p-3 bg-white text-black">Subscribe</button>
-        </div>
+
+      <div className="flex justify-center gap-4">
+        <p className="flex items-center gap-2 mb-5 text-center">
+          <FaTwitter />
+          Twitter
+        </p>
+        <p className="flex items-center gap-2 mb-5 text-center">
+          <FaInstagram />
+          Instagram
+        </p>
+        <p className="flex items-center gap-2 mb-5 text-center">
+          <FaFacebook />
+          Facebook
+        </p>
       </div>
+      <p className="text-center">
+        Nursery & primary school: 250 j.balvin street | ocean | yN |12098
+        |9098272628
+        <br />
+        secondary school: 244 j.balvin street | ocean | yN |12098 |9098272628
+      </p>
     </section>
   );
 };
