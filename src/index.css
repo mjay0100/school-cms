@@ -50,7 +50,7 @@
 
 .first-container {
   background: url("src/images/photo school kid100.jpg");
-  height: 500px;
+  height: 600px;
   width: 100%;
   object-fit: cover;
   background-size: cover;
@@ -72,4 +72,48 @@
   line-height: 48px;
   text-align: center;
   color: #ffffff;
+}
+
+.second-container {
+  background-color: #fb6f00;
+}
+
+.text {
+  text-align: center;
+  padding: 35px 0px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "inter";
+}
+.third-container-text100 {
+  color: black;
+  text-align: center;
+  padding: 35px 0px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "inter";
+}
+.text-text {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 30px;
+  padding-bottom: 40px;
+  font-family: "inter";
+}
+
+.third-container {
+  background-color: #f0f0f0;
+}
+
+.third-container-text-text {
+  font-size: 20px;
+  /* color: #0000; */
+  line-height: 30px;
+  padding-bottom: 40px;
+  font-family: "inter";
+}
+
+.fourth-flex {
+  margin-left: 15vh;
 }
