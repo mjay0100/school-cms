@@ -34,3 +34,42 @@
   background-size: cover;
   /* opacity:1 */
 }
+
+.image_schoolkids {
+  height: 500px;
+  width: 100%;
+  object-fit: contain;
+}
+/* .con {
+  background-image: url("src/images/photo school kid.jpg");
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+} */
+
+.first-container {
+  background: url("src/images/photo school kid100.jpg");
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  /* background-color: rgba(red, 0.5); */
+  background-blend-mode: soft-light;
+  background-color: rgba(15, 56, 118, 0.8);
+}
+
+.about-text {
+  position: absolute;
+  width: 209px;
+  height: 48px;
+  left: 570px;
+  top: 326px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
