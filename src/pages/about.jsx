@@ -93,6 +93,13 @@
 
 
         </div>
+
+        <div className = "fifth-container third-container">
+           <h3 className = "third-container-text100">
+             Partners
+           </h3>
+
+        </div>
       </section>
       
       ;
