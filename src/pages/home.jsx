@@ -24,21 +24,40 @@ const Home = () => {
       </div>
       <div className="md:flex justify-between bg-[#F0F0F0] px-[4rem] py-[8rem] text-black text-6xl">
         <div className="flex flex-col items-center my-[3rem]">
-          <FaGraduationCap className='text-orange-500' />
+          <FaGraduationCap className="text-orange-500" />
           <h1 className="text-orange-500 text-4xl my-3">#5</h1>
           <p className="text-3xl">Ranked</p>
         </div>
         <div className="flex flex-col items-center my-[3rem]">
-          <BsTrophy className='text-orange-500' />
+          <BsTrophy className="text-orange-500" />
 
           <h1 className="text-orange-500 text-4xl my-3">15+</h1>
           <p className="text-3xl">School Programs</p>
         </div>
         <div className="flex flex-col items-center my-[3rem]">
-          <GiBrain className='text-orange-500' />
+          <GiBrain className="text-orange-500" />
 
           <h1 className="text-orange-500 text-4xl my-3">#5</h1>
           <p className="text-3xl">Students</p>
+        </div>
+      </div>
+      <div className="md:grid grid-cols-3  gap-8 px-[4rem] py-[8rem] text-white">
+        <div className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center ">
+          <h1 className="text-2xl font-bold p-4">Nursery</h1>
+          <h1 className="text-lg">Nursery 1 & 2</h1>
+        </div>
+        <div className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center ">
+          <h1 className="text-2xl font-bold p-4">Primary</h1>
+          <h1 className="text-lg">Primary 1 & 2</h1>
+          <h1 className="text-lg ">
+            Amber school offers classes from primary 1-6. students with
+            exceptional and impressive performance will be graduated from
+            primary 5.
+          </h1>
+        </div>
+        <div className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center ">
+          <h1 className="text-2xl font-bold p-4">Secondary</h1>
+          <h1 className="text-lg">JSS1-SS3</h1>
         </div>
       </div>
     </section>
