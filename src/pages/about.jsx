@@ -99,6 +99,31 @@
              Partners
            </h3>
 
+           <div className = " grid grid-cols-5 gap-2 px-20 pb-40">
+
+             <div className = " md:grid-cols-1 lil-box">
+                    
+             </div>
+
+             <div className = " md:grid-cols-1 lil-box ">
+               
+             </div> 
+
+             <div className = "  md:grid-cols-1 lil-box ">
+               
+             </div>
+
+             <div className = " md:grid-cols-1 lil-box ">
+               
+             </div>
+
+             <div className = " md:grid-cols-1 lil-box ">
+               
+             </div>
+
+            
+           </div>
+
         </div>
       </section>
       
