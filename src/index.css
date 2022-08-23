@@ -123,3 +123,16 @@
   width: 30vh;
   background-color: darkgray;
 }
+
+/* ................academics................ */
+
+.acad-container {
+  background: url("src/images/kenny-eliason-zFSo6bnZJTw-unsplash.jpg");
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  /* background-color: rgba(red, 0.5); */
+  background-blend-mode: soft-light;
+  background-color: rgba(15, 56, 118, 0.8);
+}
