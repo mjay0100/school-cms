@@ -19,10 +19,10 @@ const Home = () => {
         <h1 className="text-center font-bold text-2xl my-5">Mission</h1>
         <p className="text-center">
           The mission of Amberschool is to develop intellectually curious and
-          capable young people who are selfless contributors to both local and
-          global communities, and who aspire to be ethical and compassionate
+          capable young people who are selfless contributors to both local and 
+          global communities, and who aspire to be ethical and compassionate 
           leaders. Through a rigorous and innovative academic program in math,
-          science, and technology, in combination with commerce and arts.
+          science, and technology, in combination with commerce and arts. 
           Amberschool affords its diverse student population those experiences,
           skills, and values that will prepare them for purposeful contributions
           in higher education and STEM-related fields.
