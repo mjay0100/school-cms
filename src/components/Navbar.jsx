@@ -61,7 +61,7 @@ const Navbar = () => {
           </Link>
           <Link
             onClick={() => setShow(false)}
-            to="/about"
+            to="/Academics"
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             academics
