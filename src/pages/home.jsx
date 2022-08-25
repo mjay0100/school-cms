@@ -72,22 +72,20 @@ const Home = () => {
       </div>
 
       {/* Gallery & News */}
-      <div className="flex mx-[3.5rem] gap-6 text-black">
+      <div className="md:flex mx-[3.5rem] gap-6 text-black">
         <div className="">
-          <h1 className="font-semibold text-2xl mb-8 capitalize">
+          <h1 className="font-semibold text-2xl mb-9 capitalize">
             graduation class galleria
           </h1>
-          <div className="grid grid-rows-2">
-            <img src={image1} className="row-span-full" alt="" />
+          <div className="grid  grid-cols-3 md:grid-cols-2 mb-10 justify-center">
+            <img src={image2} className="row-span-full" alt="" />
             <img src={image2} className="row-start-1 " alt="" />
             <img src={image3} className="" alt="" />
-          </div>
-          <div className="grid grid-rows-2">
-            <img src={image28} className="" alt="" />
-            <img src={image30} className=" col-start-2" alt="" />
+            <img src={image2} className="" alt="" />
+            <img src={image3} className=" col-start-2" alt="" />
           </div>
         </div>
-        <div className="w-[40%] mx-auto">
+        <div className="md:w-[40%] mx-auto">
           <h1 className="font-semibold text-2xl mb-8 capitalize text-left">
             newsroom
           </h1>
@@ -126,7 +124,7 @@ const Home = () => {
         </h1>
         <input
           type="text"
-          class="border-b-2 p-4  border-slate-200 border-solid mb-5"
+          class="border-b-2 p-4  border-slate-200 border-solid mb-5 focus:ring-blue-600 "
           placeholder="Enter Your E-mail Address"
         />
         <button className="px-4 py-1 border-orange-500 border-2 border-solid text-orange-500 rounded-sm w-min mx-auto">
