@@ -113,8 +113,25 @@ const Home = () => {
             </h1>
             <p className="font-semibold mb-8">12/03/2023</p>
           </div>
-          <button className="px-4 py-1 border-orange-500 border-2 border-solid text-orange-500 rounded-sm">More News</button>
+          <button className="px-4 py-1 border-orange-500 border-2 border-solid text-orange-500 rounded-sm">
+            More News
+          </button>
         </div>
+      </div>
+
+      {/* news letter subscription */}
+      <div className="py-[4rem] w-[50%] mx-auto grid">
+        <h1 className="text-[#0F3876] text-2xl mb-4 px-4">
+          Subscribe to our Newsletter
+        </h1>
+        <input
+          type="text"
+          class="border-b-2 p-4  border-slate-200 border-solid mb-5"
+          placeholder="Enter Your E-mail Address"
+        />
+        <button className="px-4 py-1 border-orange-500 border-2 border-solid text-orange-500 rounded-sm w-min mx-auto">
+          Subscribe
+        </button>
       </div>
     </section>
   );
