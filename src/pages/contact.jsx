@@ -12,7 +12,7 @@ const contact = () => {
           <div className="p-2 grid gap-4">
             <label htmlFor="name">Name:</label>
             <input
-              class="border-2 p-2 border-slate-200 border-solid mb-3 focus:ring-blue-600 "
+              className="border-2 p-2 border-slate-200 border-solid mb-3 focus:ring-blue-600 "
               type="text"
               id="name"
             />
@@ -20,7 +20,7 @@ const contact = () => {
           <div className="p-2 grid gap-4">
             <label htmlFor="email">Email:</label>
             <input
-              class="border-2 p-2 border-slate-200 border-solid mb-3 focus:ring-blue-600 "
+              className="border-2 p-2 border-slate-200 border-solid mb-3 focus:ring-blue-600 "
               t
               ype="text"
               id="email"
@@ -29,7 +29,7 @@ const contact = () => {
           <div className="p-2 grid gap-4">
             <label htmlFor="comment">Comments/Questions:</label>
             <input
-              class="border-2 p-2 border-slate-200 border-solid mb-3 focus:ring-blue-600 "
+              className="border-2 p-2 border-slate-200 border-solid mb-3 focus:ring-blue-600 "
               type="text"
               id="comment"
             />

@@ -159,7 +159,7 @@ const Home = () => {
         </h1>
         <input
           type="text"
-          class="border-b-2 p-4  border-slate-200 border-solid mb-5 focus:ring-blue-600 "
+          className="border-b-2 p-4  border-slate-200 border-solid mb-5 focus:ring-blue-600 "
           placeholder="Enter Your E-mail Address"
         />
         <button className="px-4 py-1 border-orange-500 border-2 border-solid text-orange-500 rounded-sm w-min mx-auto hover:text-white hover:bg-orange-500 transition-all duration-300">
