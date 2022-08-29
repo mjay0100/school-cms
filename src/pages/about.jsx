@@ -1,6 +1,7 @@
  const About = () => {
   return <section>
-      <div className = "first-container">
+      <div className = " first-container ">
+        {/* <img className = "w-full " src = "src/images/photo school kid100.jpg" style={{color:red}}/> */}
          <h3 className="about-text">
           About Us
         </h3>
@@ -23,8 +24,8 @@
         </div>
 
         <div className = "third-container">
-          <h3 className = "third-container-text100">Mission&Vision</h3>
-          <p className = "text-center third-container-text-text">
+          <h3 className = "py-10 text-4xl text-center text-bold">Mission&Vision</h3>
+          <p className = "text-lg pb-4 text-center ">
           The mission of Amberschool  is to develop intellectually curious and capable young people who are selfless <br />
            contributors to both local and global communities, and who aspire to be ethical and compassionate leaders. <br />
             Through a rigorous and innovative academic program in math, science, and technology, in combination with the <br />
@@ -40,25 +41,25 @@
         </div>
 
         <div className = "fourth-container bg-white  pb-14">
-          <h3 className = "third-container-text100">Core Values</h3>
+          <h3 className = "py-10 text-4xl text-center text-bold">Core Values</h3>
 
-          <div className = "flex flex-row justify-between">
-            <div className = "basis-1/2 fourth-flex">
-              <h4 className = "text-4xl">
+          <div className = "flex flex-row gap-10 justify-between px-20 md:mx-24 ">
+            <div className = "basis-1/1 ">
+              <h4 className = "text-2xl md:text-3xl ">
                 Fostering Academic Excellence
               </h4>
-              <p className = " mt-4 text-lg">
+              <p className = " mt-4 text-base md:text-lg">
               By supporting skilled and dedicated teachers who <br />
                maintain high academic standards, motivate our <br />
                 students and collaborate with our families
               </p>
             </div>
 
-            <div className = "basis-1/3">
-              <h4 className = "text-4xl">
+            <div className = "basis-1/1">
+              <h4 className = "text-2xl md:text-3xl">
                 Nurturing The Whole Child
               </h4>
-              <p className = "mt-4 text-lg">
+              <p className = "mt-4  text-base md:text-lg">
               By creating engaged learners, encouraging <br />
                honesty and guiding social and emotional <br />
                 development
@@ -67,23 +68,23 @@
           </div>
 
 
-          <div className = "flex flex-row justify-between">
-            <div className = "basis-1/2 fourth-flex mt-10">
-              <h4 className = "text-4xl">
+          <div className = "flex flex-row gap-10 justify-between px-20 md:mx-24 ">
+            <div className = "basis-1/1 mt-10">
+              <h4 className = "text-2xl md:text-3xl">
                 Ensuring A Safe Environment
               </h4>
-              <p className = "mt-4 text-lg">
+              <p className = "mt-4 text-base md:text-lg ">
               By supporting skilled and dedicated teachers who <br />
                maintain high academic standards, motivate our <br />
                 students and collaborate with our families
               </p>
             </div>
 
-            <div className = "basis-1/3 mt-10">
-              <h4 class = "text-4xl">
+            <div className = "basis-1/1 mt-10">
+              <h4 class = "text-2xl md:text-3xl">
                 Developing Critical Thinkers
               </h4>
-              <p className = "mt-4 text-lg">
+              <p className = "mt-4 text-base md:text-lg">
               By creating engaged learners, encouraging <br />
                honesty and guiding social and emotional <br />
                 development
@@ -94,7 +95,7 @@
 
         </div>
 
-        <div className = "fifth-container third-container">
+        {/* <div className = "fifth-container third-container">
            <h3 className = "third-container-text100">
              Partners
            </h3>
@@ -124,7 +125,7 @@
             
            </div>
 
-        </div>
+        </div> */}
       </section>
       
       ;

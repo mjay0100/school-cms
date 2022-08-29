@@ -68,14 +68,14 @@ const Navbar = () => {
           </Link>
           <Link
             onClick={() => setShow(false)}
-            to="/about"
+            to="#"
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             news & events
           </Link>
           <Link
             onClick={() => setShow(false)}
-            to="/about"
+            to="/Contact"
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             contact
