@@ -1,4 +1,5 @@
 @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -35,13 +36,15 @@
   /* opacity:1 */
 }
 
+
+
 .image_schoolkids {
   height: 500px;
   width: 100%;
   object-fit: contain;
 }
 /* .con {
-  background-image: url("src/images/photo school kid.jpg");
+  background-image: url("src/assets/images/photo school kid.jpg");
   height: 500px;
   width: 100%;
   object-fit: cover;
@@ -49,7 +52,7 @@
 } */
 
 .first-container {
-  background: url("src/images/photo school kid100.jpg");
+  background: url("src/assets/images/photo school kid100.jpg");
   height: 600px;
   width: 100%;
   object-fit: cover;
@@ -64,20 +67,23 @@
   /* height: 200px; */
 }
 
-/* .about-text {
-  position: absolute;
+.about-text {
+  /* position: absolute;
   width: 209px;
   height: 48px;
   left: 570px;
-  top: 326px;
+  top: 326px; */
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  line-height: 48px;
+  /* line-height: 48px;
   text-align: center;
-  color: #ffffff;
-} */
+  color: #ffffff; */
+}
+.col-span-2{
+border: 1px solid red;
+}
 
 .second-container {
   background-color: #fb6f00;
@@ -132,7 +138,7 @@
 /* ................academics................ */
 
 .acad-container {
-  background: url("src/images/kenny-eliason-zFSo6bnZJTw-unsplash.jpg");
+  background: url("src/assets/images/kenny-eliason-zFSo6bnZJTw-unsplash.jpg");
   height: 600px;
   width: 100%;
   object-fit: cover;
