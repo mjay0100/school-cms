@@ -1,11 +1,21 @@
 @tailwind base;
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* html,body{
   width:fit-content
 } */
+
+.react-calendar {
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.react-calendar__tile--active {
+  color: #fff;
+  background-color: #fb6f00 !important;
+  border-radius: 0.5rem;
+}
 
 .sidebar {
   position: fixed;
@@ -35,8 +45,6 @@
   background-size: cover;
   /* opacity:1 */
 }
-
-
 
 .image_schoolkids {
   height: 500px;

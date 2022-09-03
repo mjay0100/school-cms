@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { BsTrophy } from "react-icons/bs";
 import { GiBrain } from "react-icons/gi";
 import { FaGraduationCap } from "react-icons/fa";
@@ -6,8 +7,8 @@ import image2 from "../assets/images/Rectangle 24.png";
 import image3 from "../assets/images/Rectangle 27.png";
 import image28 from "../assets/images/Rectangle 28.png";
 import image30 from "../assets/images/Rectangle 30.png";
-import image53 from "../assets/images/Rectangle 53.png";
-import image55 from "../assets/images/Rectangle 55.png";
+import Event from '../components/Events.jsx'
+
 const Home = () => {
   return (
     <section className="">
@@ -122,33 +123,17 @@ const Home = () => {
       {/* upcoming events */}
 
       <div className="p-8 bg-[#f0f0f0] my-9">
-        <h1 className="text-2xl mb-9 font-semibold">Upcoming Events</h1>
-        <div className="md:flex gap-6">
-          <div className="bg-white relative mb-5 shadow-mg shadow-slate-300">
-            <img src={image53} className="p-8 mb-2 rounded-md mx-auto" alt="" />
-            <h1 className="bg-orange-500 w-min absolute top-[2rem] left-[2rem] text-center text-white p-8">
-              19
-              <br />
-              Aug 2022
-            </h1>
-            <h1 className="text-lg px-8 pb-8 font-semibold">
-              Freshmen Orientation
-            </h1>
-          </div>
-          <div className="bg-white relative mb-5 shadow-mg shadow-slate-300">
-            <img src={image55} className="p-8 mb-2 rounded-md mx-auto" alt="" />
-            <h1 className="bg-orange-500 w-min absolute top-[2rem] left-[2rem] text-center text-white p-8">
-              19
-              <br />
-              Aug 2022
-            </h1>
-            <h1 className="text-lg px-8 pb-8 font-semibold">Sugar Free Week</h1>
-          </div>
-        </div>
-        <div className='text-center'>
-          <button className="px-4 capitalize py-1 border-orange-500 border-2 border-solid text-orange-500 rounded-sm mx-auto  hover:text-white hover:bg-orange-500 transition-all duration-300">
-            See all events
-          </button>
+        <h1 className="text-2xl mb-9 text-center font-semibold">
+          Upcoming Events
+        </h1>
+        <Event />
+        <div className="text-center">
+          <Link to="/news">
+            {" "}
+            <button className="px-4 capitalize py-1 border-orange-500 border-2 border-solid text-orange-500 rounded-sm mx-auto my-6  hover:text-white hover:bg-orange-500 transition-all duration-300">
+              See all events
+            </button>
+          </Link>
         </div>
       </div>
 
