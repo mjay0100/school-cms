@@ -8,7 +8,7 @@ const About = () => {
         </h3>
       </div>
 
-      <div className="second-container">
+      <div className="second-container ">
         <h3 className="text-4xl text-center text-white pt-10">About Amber Academy</h3>
 
         <p className="text-center text-xl  text-white break-normal py-6">
