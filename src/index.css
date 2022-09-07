@@ -51,38 +51,31 @@
   width: 100%;
   object-fit: contain;
 }
-/* .con {
-  background-image: url("src/assets/images/photo school kid.jpg");
-  height: 500px;
-  width: 100%;
-  object-fit: cover;
-  background-size: cover;
-} */
+
 
 .first-container {
   background: url("src/assets/images/photo school kid100.jpg");
   height: 600px;
   width: 100%;
   object-fit: cover;
-  background-size: cover;
+  background-size: 100%;
   /* background-color: rgba(red, 0.5); */
   background-blend-mode: soft-light;
   background-color: rgba(15, 56, 118, 0.8);
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  /* height: 200px; */
 }
 
 .about-text {
-  position: absolute;
-  width: 209px;
-  height: 48px;
-  left: 570px;
-  top: 326px;
+
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
-  line-height: 48px;
-  text-align: center;
-  color: #ffffff;
+
 }
 
 .second-container {
@@ -101,7 +94,7 @@
   color: black;
   text-align: center;
   padding: 35px 0px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   font-family: "inter";
 }
@@ -123,10 +116,6 @@
   line-height: 30px;
   padding-bottom: 40px;
   font-family: "inter";
-}
-
-.fourth-flex {
-  margin-left: 15vh;
 }
 
 .lil-box {

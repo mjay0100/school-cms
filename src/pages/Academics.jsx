@@ -1,8 +1,8 @@
 const Academics = () => {
   return (
     <div>
-      <div className="acad-container">
-        <h3 className="about-text">Academics</h3>
+      <div className="acad-container relative z-[-1] ">
+        <h3 className="about-text text-white text-4xl absolute text-center top-[50%] w-full ">Academics</h3>
       </div>
       <h3 className="text-2xl text-center py-24 ">
         At Amber Academy our students success is rooted in the future. Students
@@ -13,16 +13,16 @@ const Academics = () => {
         Learn more about the school that is setting the standard for education.
       </h3>
 
-      <div className="flex flex-row align-middle justify-center bg-[#f0f0f0]">
-        <div className="basis-1/2 py-5">
+      <div className="md:flex md:flex-row align-middle justify-center bg-[#f0f0f0]">
+        <div className="md:basis-1/2 py-5">
           <img src="src/assets/images/Rectangle 112.png" width="500px" />
         </div>
 
-        <div className="pt-24">
+        <div className="pt-12">
           <h3 className="text-3xl  font-bold ">Elementary School</h3>
           <p className="text-xl mt-2">Nursery 1 & 2</p>
 
-          <p className="text-lg mt-10 text-left">
+          <p className="text-lg mt-7 text-left">
             Young minds are like newly formed galaxies. Full of energy, <br />
             expansive & curious. Poised & ready to stretch out and make <br />
             their mark in the universe. At Amber academy, we believe that <br />
@@ -33,12 +33,12 @@ const Academics = () => {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse align-middle justify-center bg-[#d3b2b2] pt-5">
+      <div className="md:flex md:flex-row-reverse align-middle justify-center bg-[#d3b2b2] pt-5">
         <div className=" py-5">
           <img src="src/assets/images/abc.png" width="500px" />
         </div>
 
-        <div className="basis-1/2 pt-24 pl-20">
+        <div className="basis-1/2 pt-12 pl-20">
           <h3 className="text-3xl  font-bold ">Primary School</h3>
           <p className="text-xl mt-2 ">Primary 1 & 6</p>
 
@@ -53,7 +53,7 @@ const Academics = () => {
         </div>
       </div>
 
-      <div className="flex flex-row align-middle justify-center bg-[#f0f0f0] pt-5">
+      <div className="md:flex md:flex-row align-middle justify-center bg-[#f0f0f0] pt-5">
         <div className="basis-1/2 py-5">
           <img
             src="https://www.brookings.edu/wp-content/uploads/2019/11/CUE_South-Africa_classroom001.jpg"
@@ -61,7 +61,7 @@ const Academics = () => {
           />
         </div>
 
-        <div className="pt-24">
+        <div className="pt-12">
           <h3 className="text-3xl  font-bold ">Secondary School</h3>
           <p className="text-xl mt-2">JS1 - SS3</p>
 
