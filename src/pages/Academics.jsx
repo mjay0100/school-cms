@@ -28,9 +28,14 @@ const Academics = () => {
             <img
               src="src/assets/images/Rectangle 112.png"
               className="mx-auto rounded-md"
+              data-aos="fade-right"
+              data-aos-duration="2000"
             />
           </div>
-          <div className="md:w-1/2 p-8 ">
+          <div
+            className="md:w-1/2 p-8 "
+            data-aos="fade-left"
+            data-aos-duration="2000">
             <h3 className="text-2xl mb-2 font-bold text-center ">
               Elementary School
             </h3>
@@ -50,9 +55,14 @@ const Academics = () => {
             <img
               src="src/assets/images/abc.png"
               className="mx-auto rounded-md"
+              data-aos="fade-left"
+              data-aos-duration="2000"
             />
           </div>
-          <div className="md:w-1/2 p-8 ">
+          <div
+            className="md:w-1/2 p-8 "
+            data-aos="fade-right"
+            data-aos-duration="2000">
             <h3 className="text-2xl mb-2 font-bold text-center ">
               Primary School
             </h3>
@@ -68,9 +78,16 @@ const Academics = () => {
 
         <div className="md:flex items-center justify-center pb-8 px-10 gap-5 ">
           <div className="basis-1/2 py-5">
-            <img src="https://www.brookings.edu/wp-content/uploads/2019/11/CUE_South-Africa_classroom001.jpg" />
+            <img
+              src="https://www.brookings.edu/wp-content/uploads/2019/11/CUE_South-Africa_classroom001.jpg"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            />
           </div>
-          <div className="md:w-1/2 p-8">
+          <div
+            className="md:w-1/2 p-8"
+            data-aos="fade-left"
+            data-aos-duration="2000">
             <h3 className="text-2xl mb-2 font-bold text-center">
               Secondary School
             </h3>
