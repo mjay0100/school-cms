@@ -40,18 +40,16 @@
 }
 
 .mission-img {
-  background-image: url("https://images.unsplash.com/photo-1599008633840-052c7f756385?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxlYXJuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-image: url("src/assets/images/photo school kid100.jpg");
   object-fit: cover;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  background-color: rgba(15, 56, 118, 0.8);
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
   /* opacity:1 */
 }
-
-.image_schoolkids {
-  height: 500px;
-  width: 100%;
-  object-fit: contain;
-}
-
 
 .first-container {
   background: url("src/assets/images/photo school kid100.jpg");
@@ -59,80 +57,27 @@
   width: 100%;
   object-fit: cover;
   background-size: 100%;
-  /* background-color: rgba(red, 0.5); */
   background-blend-mode: soft-light;
   background-color: rgba(15, 56, 118, 0.8);
   background-position: center center;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-size: cover;
-  /* height: 200px; */
 }
 
-.about-text {
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 45px;
-
-}
-
-.second-container {
-  background-color: #fb6f00;
-}
-
-.text {
-  text-align: center;
-  padding: 35px 0px;
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: "inter";
-}
-.third-container-text100 {
-  color: black;
-  text-align: center;
-  padding: 35px 0px;
-  font-size: 35px;
-  font-weight: 700;
-  font-family: "inter";
-}
-.text-text {
-  font-size: 20px;
-  color: #ffffff;
-  line-height: 30px;
-  padding-bottom: 40px;
-  font-family: "inter";
-}
-
-.third-container {
-  background-color: #f0f0f0;
-}
-
-.third-container-text-text {
-  font-size: 20px;
-  /* color: #0000; */
-  line-height: 30px;
-  padding-bottom: 40px;
-  font-family: "inter";
-}
-
-.lil-box {
-  height: 20vh;
-  width: 30vh;
+.partner {
+  height: 30vh;
   background-color: darkgray;
 }
 
 /* ................academics................ */
 
-.acad-container {
+.academic-container {
   background: url("src/assets/images/kenny-eliason-zFSo6bnZJTw-unsplash.jpg");
   height: 600px;
   width: 100%;
   object-fit: cover;
   background-size: cover;
-  /* background-color: rgba(red, 0.5); */
   background-blend-mode: soft-light;
   background-color: rgba(15, 56, 118, 0.8);
 }
+
