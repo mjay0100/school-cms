@@ -1,5 +1,6 @@
 import React from "react";
 import image41 from "../assets/images/Rectangle 41.png";
+import "../assets/styles/slider.css";
 
 const colors = [
   { img: image41, id: 1 },
