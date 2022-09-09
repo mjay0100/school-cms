@@ -9,15 +9,17 @@ import image28 from "../assets/images/Rectangle 28.png";
 import image30 from "../assets/images/Rectangle 30.png";
 import image41 from "../assets/images/Rectangle 41.png";
 import Event from "../components/Events.jsx";
+import Slider from "../components/Slider.jsx";
 
 const Home = () => {
   return (
     <section className="">
+      <Slider />
       {/* Hero */}
-      <img className="w-full" src={image41} alt="" />
+      {/* <img className="w-full" src={image41} alt="" /> */}
 
       {/* Mission */}
-      <div className="p-[4rem] mission-img text-white">
+      <div className="p-8 md:p-[4rem] mission-img text-white">
         <h1 className="text-center font-bold text-2xl my-5">Mission</h1>
         <p className="text-center">
           The mission of Amberschool is to develop intellectually curious and
@@ -52,11 +54,17 @@ const Home = () => {
 
       {/* Programs */}
       <div className="md:grid grid-cols-3  gap-8 px-[4rem] py-[8rem] text-white">
-        <div className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center ">
+        <div
+          className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center"
+          data-aos="fade-right"
+          data-aos-duration="2000">
           <h1 className="text-2xl font-bold p-4">Nursery</h1>
           <h1 className="text-lg">Nursery 1 & 2</h1>
         </div>
-        <div className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center ">
+        <div
+          className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center"
+          data-aos="fade-down"
+          data-aos-duration="2000">
           <h1 className="text-2xl font-bold p-4">Primary</h1>
           <h1 className="text-lg">Primary 1 & 2</h1>
           <h1 className="text-lg ">
@@ -65,7 +73,10 @@ const Home = () => {
             primary 5.
           </h1>
         </div>
-        <div className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center ">
+        <div
+          className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center"
+          data-aos="fade-left"
+          data-aos-duration="2000">
           <h1 className="text-2xl font-bold p-4">Secondary</h1>
           <h1 className="text-lg">JSS1-SS3</h1>
         </div>
