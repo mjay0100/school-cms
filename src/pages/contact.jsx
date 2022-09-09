@@ -7,7 +7,9 @@ const contact = () => {
         </h3>
       </div>
       <div className="p-9">
-        <h1 className="text-center text-2xl mt-5 font-semibold">Reach out to us</h1>
+        <h1 className="text-center text-2xl mt-5 font-semibold">
+          Reach out to us
+        </h1>
         <form action="" className="w-[50%] mx-auto my-4">
           <div className="p-2 grid gap-4">
             <label htmlFor="name">Name:</label>
