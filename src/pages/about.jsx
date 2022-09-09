@@ -3,7 +3,7 @@ const About = () => {
     <section>
       <div className=" first-container relative z-[-1] ">
         {/* <img className = "w-full " src = "src/images/photo school kid100.jpg" style={{color:red}}/> */}
-        <h3 className="text-center text-white text-4xl absolute text-center top-[50%] w-full ">
+        <h3 className="text-center text-white text-4xl absolute  top-[50%] w-full ">
           About Us
         </h3>
       </div>
@@ -56,7 +56,7 @@ const About = () => {
         <h3 className="py-8 text-4xl text-center text-bold">Core Values</h3>
 
         <div className="grid md:grid-cols-2 gap-7 w-[85%] mx-auto text-center">
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
             <h4 className="text-2xl mb-4">Fostering Academic Excellence</h4>
             <p>
               By supporting skilled and dedicated teachers who maintain high
@@ -65,14 +65,14 @@ const About = () => {
             </p>
           </div>
 
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
             <h4 className="text-2xl mb-4">Nurturing The Whole Child</h4>
             <p>
               By creating engaged learners, encouraging honesty and guiding
               social and emotional development
             </p>
           </div>
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
             <h4 className="text-2xl mb-4">Ensuring A Safe Environment</h4>
             <p>
               By supporting skilled and dedicated teachers who maintain high
@@ -81,7 +81,7 @@ const About = () => {
             </p>
           </div>
 
-          <div>
+          <div data-aos="zoom-in" data-aos-duration="1000">
             <h4 className="text-2xl mb-4">Developing Critical Thinkers</h4>
             <p className=" ">
               By encouraging intellectual curiosity and rewarding independent

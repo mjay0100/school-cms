@@ -28,6 +28,7 @@
   box-shadow: hsl(360, 67%, 44%);
   transition: transform 0.5s linear;
   transform: translate(-100%);
+  z-index: 1;
 }
 
 .show-sidebar {
@@ -80,4 +81,3 @@
   background-blend-mode: soft-light;
   background-color: rgba(15, 56, 118, 0.8);
 }
-
