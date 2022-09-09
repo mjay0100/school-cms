@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import { BsTrophy } from "react-icons/bs";
 import { GiBrain } from "react-icons/gi";
 import { FaGraduationCap } from "react-icons/fa";
@@ -7,17 +7,14 @@ import image2 from "../assets/images/Rectangle 24.png";
 import image3 from "../assets/images/Rectangle 27.png";
 import image28 from "../assets/images/Rectangle 28.png";
 import image30 from "../assets/images/Rectangle 30.png";
-import Event from '../components/Events.jsx'
+import image41 from "../assets/images/Rectangle 41.png";
+import Event from "../components/Events.jsx";
 
 const Home = () => {
   return (
     <section className="">
       {/* Hero */}
-      <img
-        className="w-full"
-        src="https://media.istockphoto.com/photos/group-of-elementary-students-having-computer-class-with-their-teacher-picture-id1358014313?b=1&k=20&m=1358014313&s=170667a&w=0&h=t_bvZVk1eQhR1SiiuRphbJ3kljcJJ46QAsOQ8EnuLbA="
-        alt=""
-      />
+      <img className="w-full" src={image41} alt="" />
 
       {/* Mission */}
       <div className="p-[4rem] mission-img text-white">
