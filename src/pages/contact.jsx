@@ -2,7 +2,7 @@ const contact = () => {
   return (
     <section>
       <div className="first-container relative z-[-1] ">
-        <h3 className="text-center text-white text-4xl absolute text-center top-[50%] w-full ">
+        <h3 className="text-center text-white text-4xl absolute top-[50%] w-full ">
           Contact Us
         </h3>
       </div>
