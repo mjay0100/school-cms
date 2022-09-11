@@ -6,7 +6,7 @@ const Academics = () => {
   return (
     <div>
       <div className="academic-container relative z-[-1] ">
-        <h3 className="text-center text-white text-4xl absolute text-center top-[50%] w-full ">
+        <h3 className="text-white text-4xl absolute text-center top-[50%] w-full ">
           Academics
         </h3>
       </div>

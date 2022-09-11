@@ -7,6 +7,7 @@ import About from "../pages/about";
 import Academics from "../pages/academics";
 import News from "../pages/news";
 import Contact from "../pages/contact";
+import Enrollment from "../pages/enrollment";
 
 export default function Index() {
   return (
@@ -18,6 +19,7 @@ export default function Index() {
         <Route path="/academics" element={<Academics />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/enrollment" element={<Enrollment />} />
       </Routes>
       <Footer />
     </BrowserRouter>
