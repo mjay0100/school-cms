@@ -72,14 +72,16 @@ const Navbar = () => {
             className={`${show ? "py-4 ml-4" : ""}`}>
             contact
           </Link>
-          <button
-            className={`${
-              show
-                ? "md:block text-orange-500 w-[60%] px-6 py-2 capitalize border-2 border-solid rounded-md border-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-500"
-                : "w-auto md:block text-orange-500  px-6 py-2 capitalize border-2 border-solid rounded-md border-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-500"
-            }`}>
-            enroll
-          </button>
+          <Link to="enrollment">
+            <button
+              className={`${
+                show
+                  ? "md:block text-orange-500 w-[60%] px-6 py-2 capitalize border-2 border-solid rounded-md border-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-500"
+                  : "w-auto md:block text-orange-500  px-6 py-2 capitalize border-2 border-solid rounded-md border-orange-500 hover:bg-orange-500 hover:text-white transition-all duration-500"
+              }`}>
+              enroll
+            </button>
+          </Link>
         </ul>
       </nav>
       {show ? (
