@@ -2,12 +2,12 @@ import React from "react";
 import image41 from "../assets/images/Rectangle 41.png";
 import "../assets/styles/slider.css";
 
-const colors = [
+const images = [
   { img: image41, id: 1 },
   { img: image41, id: 2 },
   { img: image41, id: 3 },
 ];
-console.log(colors);
+console.log(images);
 const delay = 2500;
 
 function Slider() {
@@ -25,7 +25,7 @@ function Slider() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+          prevIndex === images.length - 1 ? 0 : prevIndex + 1
         ),
       delay
     );
@@ -40,14 +40,14 @@ function Slider() {
       <div
         className="slideshowSlider"
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
-        {colors.map((color) => (
-          // const{img,id} = color
-          <img className="slide" key={color.id} src={color.img} />
+        {images.map((image) => (
+          // const{img,id} = image
+          <img className="slide" key={image.id} src={image.img} />
         ))}
       </div>
 
       <div className="slideshowDots">
-        {colors.map((_, idx) => (
+        {images.map((_, idx) => (
           <div
             key={idx}
             className={`slideshowDot${index === idx ? " active" : ""}`}

@@ -6,9 +6,9 @@ const Events = () => {
     <>
       <div className="md:flex gap-6 justify-center mt-12 mb-6">
         <div
-          className="bg-white relative mb-5 shadow-md shadow-slate-500"
+          className="bg-white relative mb-5 shadow-md shadow-slate-500 w-[400px] mx-auto md:mx-3"
           data-aos="fade-left"
-          data-aos-duration="1500">
+          data-aos-duration="2000">
           <img
             src={image53}
             className="p-8 mb-2 rounded-md mx-auto w-[400px]"
@@ -22,9 +22,9 @@ const Events = () => {
           </h1>
         </div>
         <div
-          className="bg-white relative mb-5 shadow-md shadow-slate-500"
+          className="bg-white relative mb-5 shadow-md shadow-slate-500 w-[400px] mx-auto md:mx-3"
           data-aos="fade-right"
-          data-aos-duration="1500">
+          data-aos-duration="2000">
           <img
             src={image55}
             className="p-8 mb-2 rounded-md mx-auto w-[400px]"
