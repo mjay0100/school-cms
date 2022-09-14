@@ -22,8 +22,9 @@ const Academics = () => {
       </div>
 
       {/* sections */}
-      <section className="my-6">
-        <div className="md:flex items-center justify-center py-8 px-10 gap-5 ">
+      {/* problem start */}
+      {/* <section className="my-6">
+        <div className="md:flex items-center justify-center py-8  gap-5 ">
           <div className="py-5">
             <img
               src="src/assets/images/Rectangle 112.png"
@@ -102,7 +103,8 @@ const Academics = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
+      {/* problem end */}
 
       {/* our fields */}
 
@@ -110,15 +112,21 @@ const Academics = () => {
         <h3 className=" text-center text-4xl font-bold">Our Fields</h3>
 
         <div className="w-2/3 mx-auto grid md:grid-cols-3 gap-5 items-center">
-          <div className=" my-2 p-3 text-xl  rounded-md items-center">
+          <div
+            className=" my-2 p-3 text-xl  rounded-md items-center"
+            data-aos="fade-down-right">
             <img src={science} alt="science" className="w-20 mx-auto mb-3" />
             <p className="text-center text-[#0f3768]">Science & Technology</p>
           </div>
-          <div className=" my-2 p-3 text-xl  rounded-md items-center">
+          <div
+            className=" my-2 p-3 text-xl  rounded-md items-center"
+            data-aos="fade-down">
             <img src={mayor} alt="arts" className="w-20 mx-auto mb-3" />
             <p className="text-center text-[#0f3768]"> Art & Humanities</p>
           </div>
-          <div className=" my-2 p-3 text-xl  rounded-md items-center">
+          <div
+            className=" my-2 p-3 text-xl  rounded-md items-center"
+            data-aos="fade-down-left">
             <img src={strategy} alt="commerce" className="w-20 mx-auto mb-3" />
             <p className="text-center text-[#0f3768]"> Commercial</p>
           </div>

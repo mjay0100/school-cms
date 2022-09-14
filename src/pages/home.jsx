@@ -10,6 +10,9 @@ import image30 from "../assets/images/Rectangle 30.png";
 import image41 from "../assets/images/Rectangle 41.png";
 import Event from "../components/Events.jsx";
 import Slider from "../components/Slider.jsx";
+import programs from "../assets/images/programs.png";
+import ranked from "../assets/images/ranked.png";
+import students from "../assets/images/students.png";
 
 const Home = () => {
   return (
@@ -32,28 +35,30 @@ const Home = () => {
           in higher education and STEM-related fields.
         </p>
       </div>
-      <div className="sm:flex justify-between bg-[#F0F0F0] px-[6rem] py-[8rem] text-black text-5xl">
-        <div className="flex flex-col items-center my-[3rem]">
-          <FaGraduationCap className="text-orange-500" />
-          <h1 className="text-orange-500 text-2xl my-3">#5</h1>
-          <p className="text-lg">Ranked</p>
-        </div>
-        <div className="flex flex-col items-center my-[3rem]">
-          <BsTrophy className="text-orange-500" />
+      <div className=" bg-[#F0F0F0] p-[6rem] text-black text-5xl">
+        <div className="sm:grid grid-cols-3">
+          <div className="flex flex-col items-center my-5">
+            <img src={ranked} alt="" className="w-24 mx-auto mb-3" />
+            <h1 className="text-orange-500 text-2xl my-3">#5</h1>
+            <p className="text-lg">Ranked</p>
+          </div>
+          <div className="flex flex-col items-center my-5">
+            <img src={programs} alt="" className="w-24 mx-auto mb-3" />
 
-          <h1 className="text-orange-500 text-2xl my-3">15+</h1>
-          <p className="text-lg">School Programs</p>
-        </div>
-        <div className="flex flex-col items-center my-[3rem]">
-          <GiBrain className="text-orange-500" />
+            <h1 className="text-orange-500 text-2xl my-3">15+</h1>
+            <p className="text-lg">School Programs</p>
+          </div>
+          <div className="flex flex-col items-center my-5">
+            <img src={students} alt="" className="w-24 mx-auto mb-3" />
 
-          <h1 className="text-orange-500 text-2xl my-3">#5</h1>
-          <p className="text-lg">Students</p>
+            <h1 className="text-orange-500 text-2xl my-3">#5</h1>
+            <p className="text-lg">Students</p>
+          </div>
         </div>
       </div>
 
       {/* Programs */}
-      <div className="md:grid grid-cols-3  gap-8 px-[4rem] py-[8rem] text-white">
+      <div className="md:grid grid-cols-3  gap-8 p-[4rem]  text-white">
         <div
           className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center"
           data-aos="fade-right"
@@ -61,10 +66,7 @@ const Home = () => {
           <h1 className="text-2xl font-bold p-4">Nursery</h1>
           <h1 className="text-lg">Nursery 1 & 2</h1>
         </div>
-        <div
-          className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center"
-          data-aos="fade-down"
-          data-aos-duration="2000">
+        <div className="bg-[#0F3876] text-center p-[3rem] my-8 rounded-md flex flex-col items-center">
           <h1 className="text-2xl font-bold p-4">Primary</h1>
           <h1 className="text-lg">Primary 1 & 2</h1>
           <h1 className="text-lg ">
@@ -83,7 +85,7 @@ const Home = () => {
       </div>
 
       {/* Gallery & News */}
-      <div className="md:flex mx-[3.5rem] gap-6 text-black">
+      <div className="md:flex gap-6 text-black my-5 w-[70%] mx-auto">
         <div className="">
           <h1 className="font-semibold text-2xl mb-9 capitalize">
             graduation class galleria
@@ -96,7 +98,7 @@ const Home = () => {
             <img src={image3} className=" col-start-2" alt="" />
           </div>
         </div>
-        <div className="md:w-[40%] mx-auto">
+        <div className="md:w-[50%] mx-auto">
           <h1 className="font-semibold text-2xl mb-8 capitalize text-left">
             newsroom
           </h1>
