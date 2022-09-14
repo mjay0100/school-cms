@@ -8,6 +8,8 @@ import Academics from "../pages/academics";
 import News from "../pages/news";
 import Contact from "../pages/contact";
 import Enrollment from "../pages/enrollment";
+import Parents from "../pages/parents";
+import Ward from "../pages/ward";
 
 export default function Index() {
   return (
@@ -20,6 +22,8 @@ export default function Index() {
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/enrollment" element={<Enrollment />} />
+        <Route path="/parents" element={<Parents />} />
+        <Route path="/ward" element={<Ward />} />
       </Routes>
       <Footer />
     </BrowserRouter>
