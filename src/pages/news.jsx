@@ -1,5 +1,5 @@
 import Event from "../components/Events.jsx";
-// import Schedule from "../components/Schedule.jsx";
+import Schedule from "../components/Schedule.jsx";
 
 const news = () => {
   return (
@@ -14,7 +14,7 @@ const news = () => {
       </div>
       <div>
         <div className="p-8 mt-5">
-          {/* <Schedule /> */}
+          <Schedule />
           <Event />
         </div>
       </div>
