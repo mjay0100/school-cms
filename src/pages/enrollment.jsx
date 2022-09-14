@@ -38,9 +38,11 @@ const enrollment = () => {
             </ul>
           </div>
           <div className="text-center py-5">
-            <button className="px-8 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300">
-              Subscribe
-            </button>
+            <a href="../parents">
+              <button className="px-8 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300">
+                Start
+              </button>
+            </a>
           </div>
         </div>
       </div>
