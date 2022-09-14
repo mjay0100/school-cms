@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import image1 from "../assets/images/Group 166.png";
+import { useNavigate } from "react-router-dom";
 
 const parents = () => {
+  let navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-[#f0f0f0] md:py-3">
       <div className=" bg-[#ffffff] md:mx-40 py-10">
@@ -67,11 +74,14 @@ const parents = () => {
             </div>
 
             <div className="text-center py-5">
-              <a href="../ward">
-                <button className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300">
-                  Next
-                </button>
-              </a>
+              <button
+                className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300"
+                onClick={() => {
+                  navigate("/ward");
+                }}
+              >
+                Next
+              </button>
             </div>
           </form>
         </div>

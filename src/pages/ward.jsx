@@ -1,6 +1,11 @@
 import React from "react";
+import { useEffect } from "react";
 
 const ward = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-[#f0f0f0] md:py-3">
       <div className=" bg-[#ffffff] md:mx-40 py-10">
@@ -156,7 +161,7 @@ const ward = () => {
             </div>
 
             <div className="text-center py-5">
-              <a href="../ward">
+              <a href="#">
                 <button className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300">
                   Proceed
                 </button>

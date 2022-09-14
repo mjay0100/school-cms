@@ -1,7 +1,9 @@
 import React from "react";
 import image0 from "../assets/images/Group 167.png";
+import { useNavigate } from "react-router-dom";
 
 const enrollment = () => {
+  let navigate = useNavigate();
   return (
     <div className="bg-[#f0f0f0] md:py-3">
       <div className=" bg-[#ffffff] md:mx-40 py-10">
@@ -44,11 +46,14 @@ const enrollment = () => {
             </ul>
           </div>
           <div className="text-center py-5">
-            <a href="../parents">
-              <button className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300">
-                Start
-              </button>
-            </a>
+            <button
+              className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300"
+              onClick={() => {
+                navigate("/parents");
+              }}
+            >
+              Start
+            </button>
           </div>
         </div>
       </div>
