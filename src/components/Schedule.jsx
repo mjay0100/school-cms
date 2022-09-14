@@ -1,5 +1,5 @@
-import Calendar from 'react-calendar';
-import {useState} from 'react'
+import Calendar from "react-calendar";
+import { useState } from "react";
 import "react-calendar/dist/Calendar.css";
 
 const Schedule = () => {
@@ -10,6 +10,6 @@ const Schedule = () => {
       <Calendar onChange={onChange} value={value} />
     </div>
   );
-}
+};
 
-export default Schedule
+export default Schedule;
