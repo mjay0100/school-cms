@@ -7,7 +7,7 @@ const images = [
   { img: image41, id: 2 },
   { img: image41, id: 3 },
 ];
-console.log(images);
+// console.log(images);
 const delay = 2500;
 
 function Slider() {
@@ -39,7 +39,8 @@ function Slider() {
     <div className="slideshow">
       <div
         className="slideshowSlider"
-        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
+        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+      >
         {images.map((image) => (
           // const{img,id} = image
           <img className="slide" key={image.id} src={image.img} />
@@ -53,7 +54,8 @@ function Slider() {
             className={`slideshowDot${index === idx ? " active" : ""}`}
             onClick={() => {
               setIndex(idx);
-            }}></div>
+            }}
+          ></div>
         ))}
       </div>
     </div>

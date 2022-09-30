@@ -22,8 +22,8 @@ const Academics = () => {
       </div>
 
       {/* sections */}
-      {/* problem start */}
-      {/* <section className="my-6">
+
+      <section className="my-6">
         <div className="md:flex items-center justify-center py-8  gap-5 ">
           <div className="py-5">
             <img
@@ -36,7 +36,8 @@ const Academics = () => {
           <div
             className="md:w-1/2 p-8 "
             data-aos="fade-left"
-            data-aos-duration="2000">
+            data-aos-duration="2000"
+          >
             <h3 className="text-2xl mb-2 font-bold text-center ">
               Elementary School
             </h3>
@@ -63,7 +64,8 @@ const Academics = () => {
           <div
             className="md:w-1/2 p-8 "
             data-aos="fade-right"
-            data-aos-duration="2000">
+            data-aos-duration="2000"
+          >
             <h3 className="text-2xl mb-2 font-bold text-center ">
               Primary School
             </h3>
@@ -88,7 +90,8 @@ const Academics = () => {
           <div
             className="md:w-1/2 p-8"
             data-aos="fade-left"
-            data-aos-duration="2000">
+            data-aos-duration="2000"
+          >
             <h3 className="text-2xl mb-2 font-bold text-center">
               Secondary School
             </h3>
@@ -103,8 +106,7 @@ const Academics = () => {
             </p>
           </div>
         </div>
-      </section> */}
-      {/* problem end */}
+      </section>
 
       {/* our fields */}
 
@@ -114,19 +116,22 @@ const Academics = () => {
         <div className="w-2/3 mx-auto grid md:grid-cols-3 gap-5 items-center">
           <div
             className=" my-2 p-3 text-xl  rounded-md items-center"
-            data-aos="fade-down-right">
+            data-aos="fade-down-right"
+          >
             <img src={science} alt="science" className="w-20 mx-auto mb-3" />
             <p className="text-center text-[#0f3768]">Science & Technology</p>
           </div>
           <div
             className=" my-2 p-3 text-xl  rounded-md items-center"
-            data-aos="fade-down">
+            data-aos="fade-down"
+          >
             <img src={mayor} alt="arts" className="w-20 mx-auto mb-3" />
             <p className="text-center text-[#0f3768]"> Art & Humanities</p>
           </div>
           <div
             className=" my-2 p-3 text-xl  rounded-md items-center"
-            data-aos="fade-down-left">
+            data-aos="fade-down-left"
+          >
             <img src={strategy} alt="commerce" className="w-20 mx-auto mb-3" />
             <p className="text-center text-[#0f3768]"> Commercial</p>
           </div>
