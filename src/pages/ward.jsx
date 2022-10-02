@@ -182,13 +182,14 @@ const ward = () => {
     // console.log(containTab);
     // headTab.innerHTML = containTab;
   };
-
   let addWard = () => {
     let wardFormLength = document.querySelectorAll(".waardFForm").length;
+
     console.log(wardFormLength);
     if (wardFormLength < wardNum) {
       $("#formSecond").append(
-        `<form action="" class ="md:w-[75%] waardFForm mx-auto my-4">
+        `<h3 class = "text-center font-bold text-3xl" id=""><span id="ward2">0</span> Ward</h3>
+        <form action="" class ="md:w-[75%] waardFForm mx-auto my-4">
       <div class ="p-2 grid gap-4 tomatoes">
         <label htmlFor="first-name">First-Name:</label>
         <input
@@ -334,6 +335,11 @@ const ward = () => {
       
     </form>`
       );
+
+      let farm = document.querySelectorAll("#ward2");
+      farm.forEach((ff, i) => {
+        ff.innerHTML = i + 2;
+      });
     }
   };
 
@@ -503,25 +509,6 @@ const ward = () => {
                   />
                 </div>
               </div>
-              {/* 
-              <div className="text-center flex gap-3 py-5">
-                <button
-                  className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white roundedsm w-min mx-auto hover:bg-orange-400 transition-all duration-300"
-                  onClick={() => {
-                    navigate("/parents");
-                  }}
-                >
-                  Back
-                </button>
-                <button
-                  className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white rounded-sm w-min mx-auto hover:text-white hover:bg-orange-300 transition-all duration-300"
-                  onClick={() => {
-                    navigate("/enrollment");
-                  }}
-                >
-                  Proceed
-                </button>
-              </div> */}
             </form>
           </div>
           <div className="" id="formSecond"></div>
