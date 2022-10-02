@@ -23,7 +23,7 @@ const parents = () => {
           </h2>
 
           <form action="" className="md:w-[75%] mx-auto my-4">
-            <div className="p-2 grid gap-4 capitalize">
+            {/* <div className="p-2 grid gap-4 capitalize">
               <label htmlFor="name">Number of ward to enroll:</label>
               <input
                 className="rounded-[1.5rem] border-2 p-2 border-slate-200 border-solid mb-3 focus:ring-blue-600 "
@@ -31,7 +31,7 @@ const parents = () => {
                 id="name"
                 placeholder="1"
               />
-            </div>
+            </div> */}
             <p className="text-xl my-5 font-bold">Parent or Guardian details</p>
             <div className="p-2 grid gap-4">
               <label htmlFor="first-name">First-Name:</label>
@@ -78,14 +78,16 @@ const parents = () => {
                 className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white roundedsm w-min mx-auto hover:bg-orange-400 transition-all duration-300"
                 onClick={() => {
                   navigate("/enrollment");
-                }}>
+                }}
+              >
                 Back
               </button>
               <button
                 className="px-9 py-2 my-2 border-orange-500 border-2 border-solid bg-orange-500 text-white roundedsm w-min mx-auto hover:bg-orange-400 transition-all duration-300"
                 onClick={() => {
                   navigate("/ward");
-                }}>
+                }}
+              >
                 Next
               </button>
             </div>
